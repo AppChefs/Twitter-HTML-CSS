@@ -1,0 +1,188 @@
+
+li{
+    list-style-type: none;
+    padding: 20px;
+    
+}
+.icon{
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding-right: 40px;
+}
+.icon:hover{
+    background-color: rgb(230, 228, 228);
+    border-radius: 100%;
+    
+}
+
+.first-section{
+    margin-left: 70px;
+    border-right: 1px solid;
+    border-color: rgb(219, 217, 217);
+
+}
+.second-section{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    min-height: fit-content;
+    border-right: 1px solid;
+    height: 100vh;
+    border-color: rgb(219, 217, 217);
+    background-color: white;
+    
+}
+.third-section{
+    background-color:white;
+}
+
+.fa-twitter{
+    color: rgb(29, 155, 240);
+}
+#search-bar{
+    border-radius:100px;
+    margin-top: 5px;
+    padding-top: 10px;
+    border-style: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: 45px;
+    background-color:rgb(241, 237, 237);
+}
+.profile{
+    height: 50px;
+    border-radius: 100%;
+}
+.main-heading{
+    padding: 10px 5px;
+}
+.sub-heading{
+    
+    width: 50%;
+    position: relative;
+    left: 60px;
+    bottom:100px;
+    color: gray;
+}
+
+.second-section .container{
+    padding: 0;
+    position: sticky;
+}
+.tweet-box{
+    height: 140px;
+}
+.photo{ 
+    position: relative;
+    bottom: 60px;
+    height: 100px;
+}
+.opt-bar{
+    color: rgb(29, 155, 240) ;
+    position: relative;
+    bottom:100px;
+    left: 60px;
+    width: 500px;
+}
+.opt-icon{
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+.opt-icon:hover{
+    background-color:rgb(201, 227, 245) ;
+    border-radius: 100%;
+}
+.tweet-btn{
+    background-color:rgb(29, 155, 240) ;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    height: 40px;
+    position: relative;
+    left: 270px;
+    font-weight: 900;
+    font-family:sans-serif;
+}
+#tweet-text{
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+hr{
+    position: relative;
+    bottom: 105px;
+}
+.news{
+    max-width: fit-content;
+    height: 480px;
+    margin-top: 20px;
+    border-radius: 5%;
+    background-color: rgb(247, 247, 247);
+}
+.side-photo{
+    height: 60px;
+    position: relative;
+    bottom:20px;
+    left: 200px;
+    border-radius: 30%;
+}
+.big-heading{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.con{
+    height: 110px;
+}
+.feed-header{
+    position: sticky;
+}
+.second-section::-webkit-scrollbar{
+    display: none;
+}
+.post-profile-photo{
+    height: 50px;
+    border-radius: 100%;
+}
+.post-photo{
+    height: auto;
+    width:600px;
+    padding:0 20px;
+    border-radius: 40px;
+    margin: 0;
+}
+.footer-icon{
+    color: grey;
+}
+.post-footer{
+    position: relative;
+    bottom: 30px;
+    justify-content: space-between;
+    display: flex;
+    padding:0 50px;
+}
+.post-name{
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: medium;
+    font-weight: 600;
+}
+.post-header{
+    position: relative;
+    bottom:50px;
+    left: 55px;
+    max-width: fit-content;
+}
+.post-photo{
+    position: relative;
+    bottom: 50px;
+}
+.line{
+    position: relative;
+    bottom:20px
+}
